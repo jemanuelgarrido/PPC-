@@ -1,6 +1,4 @@
-﻿using System;
-
-Console.WriteLine("Hello Welcome");
+﻿Console.WriteLine("Hello Welcome");
 byte edad;
 try
 
@@ -8,19 +6,19 @@ try
 {
     Console.WriteLine("Digite su edad ejem 20");
     edad = Convert.ToByte(Console.ReadLine());
-    
+
     Console.WriteLine($"No aparentas {edad} años");
 }
 catch (Exception ex)
 {
-    Console.WriteLine("Ups no entendiste burro");
+    Console.WriteLine("Ups no entendiste");
     Console.WriteLine("La excepcion es:" + ex.Message);
 }
 
 try
 {
-    byte num1,num2;
- 
+    byte num1, num2;
+
 
     ushort multiplicacion;
 
@@ -33,9 +31,9 @@ try
     Console.WriteLine($"El resultado de la multiplicacion es:{multiplicacion}");
 }
 catch (Exception ex)
-{ 
-Console.WriteLine("Ups no entendiste burro");
-Console.WriteLine("La excepcion es:" + ex.Message);
+{
+    Console.WriteLine("Ups no entendiste ");
+    Console.WriteLine("La excepcion es:" + ex.Message);
 }
 
 long number1, number2, suma, resta, prod;
@@ -49,3 +47,4 @@ prod = (long)(number1 * number2);
 Console.WriteLine($"El resultado de la suma es:{suma}");
 Console.WriteLine($"El resultado de la resta es:{resta}");
 Console.WriteLine($"El producto de los numeros digitados es:{prod}");
+
